@@ -1,20 +1,85 @@
-main {
-  margin: 0vw;
-  background-color: #fff7f7;
+body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content;
-  grid-template-areas: "picture info";
+  grid-template-rows: 150px, 1fr, 1fr, 1fr;
+  grid-template-areas:
+    "head head"
+    "more more"
+    "image info";
 }
 
-.pic {
-  grid-area: picture;
+li {
+  list-style: none;
+  text-decoration: none;
 }
 
-.infomation {
+.breadcrumbs {
+  display: flex;
+  grid-area: more;
+  gap: 20px;
+}
+
+dd {
+  margin-left: 0;
+  font-style: italic;
+}
+
+.image {
+  width: 550px;
+  margin-left: 40px;
+}
+
+.logo {
+  grid-area: header;
+  margin-top: 20px;
+}
+
+header {
+  grid-area: head;
+}
+
+nav {
+  grid-area: head;
+  float: right;
+}
+
+.smallProduct {
+  grid-area: image;
+}
+
+.purchaseBox {
   grid-area: info;
 }
 
 img {
   width: 550px;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+dd {
+  color: black;
+}
+
+dt {
+  color: black;
+}
+
+.purchaseBox {
+  line-height: 38px;
 }

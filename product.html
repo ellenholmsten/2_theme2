@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="productpage.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <nav>
-      <div class="logo"><a href="index.html">Wine</a></div>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="red.html">red</a></li>
-        <li><a href="white.html">white </a></li>
-        <li><a href="rose.html">rose</a></li>
-        <li><a href="about.html"> about </a></li>
-      </ul>
+        <div class="logo"><a href="index.html">Wine</a></div>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="red.html">red</a></li>
+            <li><a href="white.html">white </a></li>
+            <li><a href="rose.html">rose</a></li>
+            <li><a href="about.html"> about </a></li>
+        </ul>
     </nav>
-    <main>
-      <div class="productinfo">
-        <div class="picture">
-          <img src="img/Stéphane Delettre - Chardons.png" alt="wine" />
-        </div>
-        <div class="infomation">
-          <h1>Porta 6 Tejo</h1>
-          <h3>2020</h3>
-          <span id="locationpin"
-            >...
-            <p>Portugal, Tejo</p></span
-          >
-          <p class="describe">
-            This is the most Portuguese thing you will find on the Mosel. Two
-            grapes varieties that thrive in the slate valley of the Douro,
-            Arinto & Fernao Pires which the magical winemaker Jan Klein has
-            turned into a yeasty smooth as good as a Portuguese egg tart - Pet
-            Nat!
-          </p>
-          <span id="shortinfo">Percentage 13% | Size 750 ml | Sparkling</span>
-        </div>
-      </div>
-    </main>
-  </body>
+    <ol class="breadcrumbs">
+        <li><a href="category.html">Wine ></a></li>
+        <li class="brand"><a href="productlist.html"> Red></a></li>
+        <li class="productname">Porta 6 Tejo</li>
+    </ol>
+
+    <body>
+        <article class="smallProduct">
+            <img class="image" src="img/Valerie+Godelu+Les+Petiotes.jpg" alt="wine bottle" />
+        </article>
+        <section class="purchaseBox">
+            <h1 class="name">Porta 6 Tejo</h1>
+                <p class="subtle">Portugal, Tejo</p>
+                <p class="describe">
+                    This is the most Portuguese thing you will find on the Mosel. Two grapes varieties that thrive in
+                    the slate valley of the Douro, Arinto & Fernao Pires which the magical winemaker Jan Klein has
+                    turned into a yeasty smooth as good as a Portuguese egg tart - Pet Nat!
+                </p>
+
+
+                <section class="info">
+                    <h2>Product Information</h2>
+                    <dl>
+                        <dt>Percentage</dt>
+                        <dd class="percentage">13%</dd>
+                        <dt>Size</dt>
+                        <dd class="size">750 ml</dd>
+                        <dt>Texture</dt>
+                        <dd class="texture">normal</dd>
+                    </dl>
+                    <h3>Price</h3>
+                    <h2 class="price">129DKK</h2>
+                </section>
+        </section>
+        <script src="product.js"></script>
+    </body>
+
 </html>
