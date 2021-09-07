@@ -109,8 +109,6 @@ nav ul li a:active {
 
 h1 {
   font-family: straatliches;
-  padding-bottom: 20px;
-  padding-top: 20px;
 }
 h2 {
   font-family: straatliches;
@@ -125,6 +123,8 @@ p {
   font-weight: 300;
 
   font-style: normal;
+
+  line-height: 32px;
 }
 
 /*colors: 
