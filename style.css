@@ -120,7 +120,11 @@ h3 {
 }
 
 p {
-  font-family: geneva;
+  font-family: museo-sans, sans-serif;
+
+  font-weight: 300;
+
+  font-style: normal;
 }
 
 /*colors: 
