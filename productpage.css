@@ -49,6 +49,7 @@ nav {
 
 .purchaseBox {
   grid-area: info;
+  line-height: 32px;
 }
 
 img {
@@ -84,8 +85,4 @@ dd {
 
 dt {
   color: black;
-}
-
-.purchaseBox {
-  line-height: 32px;
 }
