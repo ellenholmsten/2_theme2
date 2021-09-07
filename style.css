@@ -1,5 +1,7 @@
 body {
   background-color: #fff7f7;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -66,7 +68,7 @@ nav ul {
   list-style: none;
   padding-right: 5rem;
   position: relative;
-  padding-top: 18px;
+  padding-top: 16px;
   z-index: 100;
 }
 
