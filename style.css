@@ -287,3 +287,19 @@ button {
 .btn-16:active {
   top: 2px;
 }
+
+
+
+
+
+/* product page css*/
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;}
+
+  .smallProduct{
+    border: solid black 1px;
+    border-radius: 1rem;
+  }
