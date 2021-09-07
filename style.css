@@ -3,7 +3,7 @@
   padding: 0;
   color: white;
   box-sizing: border-box;
-  font-family: montserrat, sans-serif;
+  font-family: straatliches, sans-serif;
 }
 
 body {
@@ -25,7 +25,7 @@ nav {
 nav .logo {
   float: left;
   color: white;
-  font-size: 30px;
+  font-size: 70px;
   line-height: 70px;
   padding-left: 5rem;
   padding-top: 20px;
@@ -80,16 +80,16 @@ nav ul li a {
   color: white;
   text-decoration: none;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 25px;
   padding: 8px 10px;
 }
 @font-face {
-  font-family: straaliches;
+  font-family: straatliches;
   src: url(Staatliches-Regular.ttf);
 }
 
 @font-face {
-  font-family: geneve;
+  font-family: geneva;
   src: url(Geneva\ Normal.ttf);
 }
 
