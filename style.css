@@ -85,6 +85,14 @@ nav ul li a {
   font-size: 25px;
   padding: 8px 10px;
 }
+
+nav ul li a:hover {
+  color: #9b0000;
+}
+
+nav ul li a:active {
+  color: white;
+}
 @font-face {
   font-family: straatliches;
   src: url(Staatliches-Regular.ttf);
