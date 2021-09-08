@@ -288,18 +288,38 @@ button {
   top: 2px;
 }
 
-
-
-
-
 /* product page css*/
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;}
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: center;
+  align-content: center;
+}
 
-  .smallProduct{
-    border: solid black 1px;
-    border-radius: 1rem;
-  }
+.productlist {
+  display: flex;
+  justify-content: center;
+  font-family: straatliches;
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+}
+
+.products a:hover {
+  color: #9b0000;
+}
+
+.region,
+.price,
+.grape {
+  line-height: 5px;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
