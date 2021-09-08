@@ -49,7 +49,8 @@ nav {
 
 .purchaseBox {
   grid-area: info;
-  line-height: 32px;
+  line-height: 22px;
+  float: left;
 }
 
 img {
@@ -63,24 +64,28 @@ p {
 h1 {
   color: black;
   font-size: 3rem;
+  font-family: straatliches;
 }
 
 h2 {
   color: black;
+  font-family: straatliches;
 }
 
 h3 {
   color: black;
+  font-family: straatliches;
 }
 
 h4 {
   color: black;
+  font-family: straatliches;
 }
 
-dd {
-  color: black;
+li a {
+  font-family: straatliches;
 }
 
-dt {
-  color: black;
+li {
+  font-family: straatliches;
 }
