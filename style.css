@@ -323,3 +323,20 @@ button {
   font-weight: 300;
   font-style: normal;
 }
+
+footer {
+  width: 100%;
+  background: #fdd3da;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  column-span: all;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: straatliches, sans-serif;
+}
