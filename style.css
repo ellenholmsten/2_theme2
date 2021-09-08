@@ -275,3 +275,28 @@ button {
     border: solid black 1px;
     border-radius: 1rem;
   }
+
+
+
+
+  /* about page css*/
+
+  .aboutmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+    grid-column-gap: 20px;
+  }
+
+  .wineglasses{
+    width: 80%;
+  }
+
+  .wineimages{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bigletter::first-letter{
+    font-size: 300%;
+  }
