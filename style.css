@@ -256,12 +256,62 @@ button {
   
   
 }
-
-
-
+<<<<<<< HEAD
+=======
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-16:hover {
+  color: #000;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-16:active {
+  top: 2px;
+}
 
 /* product page css*/
+>>>>>>> origin/productlistcss
 
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.productlist {
+  display: flex;
+  justify-content: center;
+  font-family: straatliches;
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+}
+
+.products a:hover {
+  color: #9b0000;
+}
+
+<<<<<<< HEAD
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -298,3 +348,30 @@ button {
   .bigletter::first-letter{
     font-size: 300%;
   }
+=======
+.region,
+.price,
+.grape {
+  line-height: 5px;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+footer {
+  width: 100%;
+  background: #fdd3da;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  column-span: all;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: straatliches, sans-serif;
+}
+>>>>>>> origin/productlistcss
