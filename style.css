@@ -2,6 +2,9 @@ body {
   background-color: #fff7f7;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -298,12 +301,14 @@ button {
   margin-right: 3rem;
   justify-content: center;
   align-content: center;
+  margin-bottom: 5vw;
 }
 
 .productlist {
   display: flex;
   justify-content: center;
   font-family: straatliches;
+  margin-top: 5vw;
 }
 
 .products a {
@@ -315,6 +320,23 @@ button {
   color: #9b0000;
 }
 
+.products .smallProduct {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.products .smallProduct img:hover {
+  opacity: 0.8;
+}
+
+.price {
+  color: grey;
+  font-size: 13px;
+}
 .region,
 .price,
 .grape {
@@ -323,6 +345,12 @@ button {
   font-weight: 300;
   font-style: normal;
 }
+
+.region {
+  font-family: museo-sans, sans-serif;
+}
+
+/* footer */
 
 footer {
   width: 100%;
@@ -334,9 +362,16 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 0;
-  padding: 0;
   color: white;
   box-sizing: border-box;
   font-family: straatliches, sans-serif;
+  margin-top: auto;
+}
+
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #bf8484;
+  margin-bottom: 0;
 }
