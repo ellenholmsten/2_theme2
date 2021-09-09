@@ -1,3 +1,6 @@
+const urlParams = new URLSearchParams(window.location.search);
+const urlId = urlParams.get("id");
+
 const url =
   "https://semester2-9155.restdb.io/rest/wines?apikey=61362a9343cedb6d1f97ed5c";
 
@@ -18,14 +21,22 @@ fetch(url, options)
 
   .then((data) => {
     //we have the data
-    console.log(data);
-    //handleData(data);
+    //console.log(data);
+    handleData(data);
   })
 
   .catch((e) => {
     //woops, something went wrong
     console.error("an error occured:"), e.message;
   });
+
+function handleData(allData) {
+  allData.forEach((data) => {
+    if (urlId == data._id) {
+      showProduct(data);
+    }
+  });
+}
 
 function showProduct(product) {
   console.log(product);
@@ -54,5 +65,5 @@ function showProduct(product) {
   //image
   document.querySelector(
     ".smallProduct .image"
-  ).src = `https://semester2-9155.restdb.io/rest/wines?apikey=/${product.id}.webp`;
+  ).src = `https://semester2-9155.restdb.io/rest/wines?apikey=61362a9343cedb6d1f97ed5c=/${product.id}.webp`;
 }
