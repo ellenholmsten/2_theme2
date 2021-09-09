@@ -8,34 +8,33 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/fgj3jvj.css" />
   </head>
-  <header>
-    <nav>
-      <div class="logo"><a href="index.html">Wine</a></div>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="productlist.html?colour=red">red</a></li>
-        <li><a href="productlist.html?colour=white">white </a></li>
-        <li><a href="productlist.html?colour=rose">rose</a></li>
-        <li><a href="about.html"> about </a></li>
-      </ul>
-    </nav>
-  </header>
-
   <body>
-    
-    <h1 class="productlist">Red Wines</h1>
+    <header>
+      <nav>
+        <div class="logo"><a href="index.html">Wine</a></div>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="productlist.html?colour=red">red</a></li>
+          <li><a href="productlist.html?colour=white">white </a></li>
+          <li><a href="productlist.html?colour=rose">rose</a></li>
+          <li><a href="about.html"> about </a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="productlist">Wines</h1>
+
     <main class="products">
-        <template id="smallProductTemplate"></template>
-      <article class="smallProduct">
-        <a href="product.html?id=6136264bd943be7d0009fcd3">
-          <img class="image" src="" alt="Stéphane Delettre - Chardons" />
-          <h3>Stéphane Delettre - Chardons</h3>
-        </a>
-        <p class="region">Loire, Frankrig</p>
-        <p class="grape">Verdejo</p>
-        <p class="price">DKK 189-</p>
-      </article>
-    </template>
+      <template id="smallProductTemplate">
+        <article class="smallProduct">
+          <a href="product.html?id=6136264bd943be7d0009fcd3">
+            <img class="image" src="" alt="Stéphane Delettre - Chardons" />
+            <h3>Stéphane Delettre - Chardons</h3>
+          </a>
+          <p class="region">Loire, Frankrig</p>
+          <p class="grape">Verdejo</p>
+          <p class="price">DKK 189-</p>
+        </article>
+      </template>
 
       <!-- <article class="smallProduct">
         <a href="product.html?id=613625d2d943be7d0009fcbc">

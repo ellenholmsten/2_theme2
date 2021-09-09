@@ -41,8 +41,11 @@ function showProduct(product) {
   //clone it
   const copy = template.cloneNode(true);
 
-  /* copy.querySelector("a").setAttribute("href", "product.html?id=" + product.id);
-  copy.querySelector(
+  copy
+    .querySelector("a")
+    .setAttribute("href", "product.html?id=" + product._id);
+
+  /* copy.querySelector(
     ".smallProduct .image"
   ).src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
@@ -57,6 +60,12 @@ function showProduct(product) {
   const newpricenoround = product.price - discountamount;
   const newprice = Math.round(newpricenoround);
 */
+
+  copy.querySelector(".smallProduct .image").src = product.img_url;
+  copy.querySelector("h3").textContent = product.name;
+  copy.querySelector(".region").textContent = product.region;
+  copy.querySelector(".grape").textContent = product.grape;
+  copy.querySelector(".price").textContent = product.price;
 
   //grab parent
   const parent = document.querySelector("main");
