@@ -1,6 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
 const urlId = urlParams.get("id");
-
 const url =
   "https://semester2-9155.restdb.io/rest/wines?apikey=61362a9343cedb6d1f97ed5c";
 
@@ -63,7 +62,5 @@ function showProduct(product) {
   document.querySelector(".price").textContent = product.price;
 
   //image
-  document.querySelector(
-    ".smallProduct .image"
-  ).src = `https://semester2-9155.restdb.io/rest/wines?apikey=61362a9343cedb6d1f97ed5c=/${product.id}.webp`;
+  document.querySelector(".smallProduct .image").src = product.img_url;
 }
